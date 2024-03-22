@@ -24,7 +24,7 @@
 }
 
 .calendar{
-  width: 600px;
+  width: 800px;
 }
 
 table{
@@ -35,5 +35,20 @@ table{
 
 .days{
   height: 30px;
+  background-color: #263392;
+  color: white;
+  border-color: black;
+}
+
+td{
   border: 1px solid;
+}
+
+.otherMonthDate{
+  color: grey;
+}
+.date, .otherMonthDate{
+  height: 100px;
+  text-align: left;
+  vertical-align: top;
 }
