@@ -44,11 +44,30 @@ td{
   border: 1px solid;
 }
 
-.otherMonthDate{
-  color: grey;
-}
+
 .date, .otherMonthDate{
   height: 100px;
   text-align: left;
   vertical-align: top;
+  border: 1px solid black;
+}
+
+.date.sun{
+  color: red;
+}
+
+.date.sat{
+  color: blue;
+}
+
+.otherMonthDate{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.otherMonthDate.sun{
+  color: rgba(255, 0, 0, 0.4);
+}
+
+.otherMonthDate.sat{
+  color: rgba(0, 0, 255, 0.4);
 }
